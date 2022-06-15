@@ -1,5 +1,8 @@
 # Big_West_Conference
 
+Disclaimer: Data outside of what is available on bigwest.org is not entirely accurate.
+Some of the components that go into the formulas of various stats were not available at bigwest.org
+
 Note on gathering data:
 
 - Copy-pasted from bigwest.org
