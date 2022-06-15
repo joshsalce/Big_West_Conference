@@ -28,4 +28,4 @@ hitting22$K_rate = round(100 * (hitting22$SO / hitting22$PA), 1)
 
 hitting22$BB_rate = round(100 * (hitting22$BB / hitting22$PA), 1)
 
-
+write.csv(hitting22, "BigWestHitting22.csv", row.names=FALSE)

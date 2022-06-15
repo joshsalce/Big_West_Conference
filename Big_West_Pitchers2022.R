@@ -1,7 +1,5 @@
 library(dplyr)
 library(tidyverse)
-
-hitting22 = read.csv(file.choose())
   
 sp22 = read.csv(file.choose())
 
@@ -47,4 +45,4 @@ pitching22$BB_rate = round((pitching22$BB/pitching22$BF) * 100,1)
 pitching22$K_BB_rate = pitching22$K_rate - pitching22$BB_rate
 
 
-
+write.csv(pitching22, "Pitching22.csv", row.names=FALSE)
